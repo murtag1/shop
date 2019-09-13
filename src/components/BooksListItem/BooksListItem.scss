@@ -1,0 +1,16 @@
+.books-list-item {
+  height: 100px;
+  border: 1px solid #6c757d;
+  border-top: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #ddd;
+  }
+
+  &__img {
+    max-height: 100%;
+  }
+}

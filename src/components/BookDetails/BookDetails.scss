@@ -1,0 +1,76 @@
+.book-details {
+  background-color: #fff;
+  display: flex;
+  border-radius: 5px;
+  padding: 10px;
+  max-height: 90vh;
+  width: 100%;
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  &__img {
+    max-height: 100%;
+    display: block;
+  }
+
+  &__title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  &__subtitle, &__price, &__isbn, &__link {
+    margin-bottom: 10px;
+  }
+
+  &__num-books {
+    width: 130px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  &__num-books-input {
+    width: 50px;
+    font-size: 1.2rem;
+    display: flex;
+    padding-left: 5px;
+    box-sizing: border-box;
+    
+    &::-webkit-inner-spin-button {
+      display: none;
+    }
+  }
+
+  &__increase-num-books, &__decrease-num-books {
+    border-radius: 50%;
+    border: none;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    display: block;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    outline: none;
+  }
+
+  &__add-to-cart {
+    display: inline-block;
+    width: 130px;
+    border-radius: 3px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+  }
+}

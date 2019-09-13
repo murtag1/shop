@@ -1,0 +1,13 @@
+.cart-icon {
+  font-size: 30px;
+  cursor: pointer;
+  position: relative;
+
+  &__num {
+    position: absolute;
+    font-size: 16px;
+    right: -10px;
+    top: -10px;
+  }
+
+}

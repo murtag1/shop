@@ -1,0 +1,24 @@
+@import 'vars';
+
+@import '../components/**/*.scss';
+
+html {
+  font-size: $mainFontSize;
+  height: 100%;
+  font-size: $mainFontSize;
+  font-family: $mainFont;
+  @media screen and (max-width: $phoneWidth) {
+    font-size: 12px;
+  }
+}
+
+body {
+	padding: 0px;
+  margin: 0;
+  height: 100%;
+  background-color: #fafafa;
+}
+
+#root {
+  height: 100%;
+}

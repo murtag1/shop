@@ -1,0 +1,19 @@
+.cart-details {
+  background-color: #fff;
+  display: flex;
+  border-radius: 5px;
+  padding: 10px;
+  max-height: 90vh;
+  min-height: 40vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  &__item {
+    margin-bottom: 20px;
+  }
+
+  &__item-title {
+    margin-right: 30px;
+  }
+}

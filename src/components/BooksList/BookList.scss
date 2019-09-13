@@ -1,0 +1,12 @@
+.books-list {
+  width: 100%;
+  max-width: $desktopWidth;
+
+  &__loader {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+  }
+}
